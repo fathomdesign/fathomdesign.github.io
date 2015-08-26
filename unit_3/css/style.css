@@ -1,8 +1,13 @@
 body{
-	background-image: url("images/jellies.jpg");
+	background-image: url(../images/jellies.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #FFF;
+	font-family:"Open Sans", sans-serif;
+    color: #FFF;
+    font-weight: lighter;
+    font-size: 13pt;
+    margin-left: 50px
 }
 
 #header{
@@ -45,16 +50,8 @@ body{
 	font-size: 42pt;
 	text-align: left;
 	line-height: 85%;
-	padding-top: 60px;
 }
 
-body{
-	font-family:"Open Sans", sans-serif;
-    color: #FFF;
-    font-weight: lighter;
-    font-size: 13pt;
-    margin-left: 50px
-}
 
 ul{
 	list-style-type: none;
@@ -64,7 +61,7 @@ ul{
 	display: inline-block;
 	text-align: left;
 	width: 280px;
-	height: 165px;
+	height: 150px;
 	padding: 10px;
 	margin: 5px;
 	line-height: 130%;
