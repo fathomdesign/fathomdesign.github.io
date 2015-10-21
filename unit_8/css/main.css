@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+h1, h2 {
+  display: inline-block;
+}
+
+h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: .85em;
+  color: #f8811a;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  text-transform: lowercase;
+  font-size: 1.5em;
+  padding-bottom: .5em;
+  color: #white
+}
+
+span {
+  font-style: italic;
+}
+
+nav {
+  font-size: 1.5em;
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f8811a;
+  margin: 1.7em;
+  display: inline-block;
+}
+
+img {
+  display: block;
+  clear: both;
+  width: 100%;
+}
+
+#hero {
+  background: #2f97ff;
+  margin: .1em 0 0 0;
+}
+
+#section1 {
+  background: #0c45ef;
+  color: white;
+  padding: 1.5em 0 2em 1.8em;
+  margin: .15em 0 0 0;
+  overflow: auto;
+}
+
+#about {
+  font-size: 1.2em;
+  width: 95%;
+}
+
+
+#section2 {
+  background: #0239be;
+  color: white;
+  padding: 1em;
+  margin: .1em 0 0 0;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0
+}
+
+.b {
+    position: relative;
+    margin: 1%;
+    float: left;
+    width: 23%;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+#section3 {
+  background: #02307b;
+  color: white;
+  padding: 1.5em 0 2em 1.8em;
+  margin: .1em 0 0 0;
+}
+
+#contact {
+  font-size: 1.2em;
+  width: 95%;
+}
+
+.email {
+  text-decoration: none;
+  color: #f8811a;
+}
+
+@media (max-width: 800px) {
+
+h1 {
+  display: block;
+  text-align: center;
+  padding: .5em 0 0 0;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+}
+
+nav {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+nav a {
+    margin: 0 1em 1em;
+  }
+
+p {
+  display: block;
+  text-align: justify;
+  }
+
+.b{
+    width: 48%;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+    nav a {
+    margin: 0 1em 1em;
+  }
+#section1, #section3 {
+padding: 1.5em;
+}
+  .b{
+    width: auto;
+    float: none;
+  }
+}
+
+
+
+
